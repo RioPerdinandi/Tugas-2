@@ -12,4 +12,3 @@ class Beranda extends CI_Controller
         $this->load->view('Templates/footer');
     }
 }
-?>

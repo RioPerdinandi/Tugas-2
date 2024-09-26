@@ -8,25 +8,28 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
+    <style>
+      .carousel-inner{margin-top: 70px;}
+    </style>
     <div class="carousel-item active">
-      <img src="assets/Images/kampus.jpeg" class="d-block w-100" alt="...">
+      <img src="assets/Images/kampus.jpeg" class="d-block w-100" height="590" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>STMIK PALANGKA RAYA</h5>
+        <p>JL. G.obos Induk</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/Images/mahasiswa.jpeg" class="d-block w-100" alt="...">
+      <img src="assets/Images/mahasiswa.jpeg" class="d-block w-100" height="590" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Perpustakaan</h5>
+        <p>Mahasiswa</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/Images/stmik.jpeg" class="d-block w-100" alt="...">
+      <img src="assets/Images/stmik.jpeg" class="d-block w-100" height="590" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Halaman Kampus</h5>
+        <p>Belajar Coding</p>
       </div>
     </div>
   </div>

@@ -11,9 +11,9 @@
     <title><?php echo $judul; ?></title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar fixed-top navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Penjadwalan</a>
+        <a class="navbar-brand" href="#">Menu</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,13 +23,13 @@
               <a class="nav-link active" aria-current="page" href="#">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mahasiswa</a>
+              <a class="nav-link" href="index.php/Mahasiswa">Mahasiswa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Dosen</a>
+              <a class="nav-link" href="">Dosen</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link disabled" href="a" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
           </ul>
         </div>
